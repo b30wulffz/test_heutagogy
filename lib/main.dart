@@ -2,9 +2,7 @@
 // // import 'dart:ui';
 // // import 'package:flutter/rendering.dart';
 
-
 // void main() => runApp(Home());
-
 
 import 'package:flutter/material.dart';
 // import 'package:splashscreen/splashscreen.dart';
@@ -12,12 +10,11 @@ import 'package:flutter/material.dart';
 import './splash.dart';
 import './home.dart';
 
-void main(){
+void main() {
   runApp(new MaterialApp(
     home: new MyApp(),
   ));
 }
-
 
 class MyApp extends StatefulWidget {
   @override
@@ -28,19 +25,15 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return new SplashScreen(
-      seconds: 2,
+      seconds: 6,
       navigateAfterSeconds: new Home(),
-      title: new Text('Welcome In SplashScreen',
-      style: new TextStyle(
-        fontWeight: FontWeight.bold,
-        fontSize: 20.0
-      ),),
-      image: new Image.network('https://i.imgur.com/TyCSG9A.png'),
-      backgroundColor: Colors.white,
-      styleTextUnderTheLoader: new TextStyle(),
-      photoSize: 100.0,
-      // onClick: ()=>print("Flutter Egypt"),
-      // loaderColor: Colors.green
+      title: new Text(
+        'Welcome In SplashScreen',
+        style: new TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 20.0,
+            fontFamily: 'Times New Roman'),
+      ),
     );
   }
 }

@@ -43,8 +43,10 @@ class _HomeState extends State<Home> {
                             ),
                           ),
                         ),
-                        background: Image.network(
-                          "https://d3ui957tjb5bqd.cloudfront.net/uploads/images/3/36/36367.pic.jpg?1463997427",
+                        
+                        background: Image.asset(
+                          "assets/images/books.jpg",
+                          // "https://d3ui957tjb5bqd.cloudfront.net/uploads/images/3/36/36367.pic.jpg?1463997427",
                           // "https://images.unsplash.com/photo-1455884981818-54cb785db6fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1890&q=80",
                           // "https://images.unsplash.com/photo-1455884981818-54cb785db6fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1890&q=80",
                           // "https://images.unsplash.com/photo-1539795845756-4fadad2905ec?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
