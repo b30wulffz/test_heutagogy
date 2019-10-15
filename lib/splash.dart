@@ -134,12 +134,11 @@ class _SplashScreenState extends State<SplashScreen>
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      
                       Padding(
                         padding: const EdgeInsets.only(bottom: 50.0),
                         child: CircularProgressIndicator(
-                        // valueColor: new AlwaysStoppedAnimation<Color>(Colors.red),
-                      ),
+                            // valueColor: new AlwaysStoppedAnimation<Color>(Colors.red),
+                            ),
                       ),
                       widget.loadingText
                     ],

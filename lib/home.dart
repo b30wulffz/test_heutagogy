@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'dart:ui';
 import 'package:flutter/rendering.dart';
 
-// void main() => runApp(Home());
-
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
@@ -133,7 +131,7 @@ class Lesson extends StatelessWidget {
           decoration: BoxDecoration(
             border: Border.all(
               color: borderColor,
-              width: 3,
+              width: 2,
             ),
             borderRadius: BorderRadius.circular(20.0),
           ),

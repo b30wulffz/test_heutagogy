@@ -1,11 +1,4 @@
-// import 'package:flutter/material.dart';
-// // import 'dart:ui';
-// // import 'package:flutter/rendering.dart';
-
-// void main() => runApp(Home());
-
 import 'package:flutter/material.dart';
-// import 'package:splashscreen/splashscreen.dart';
 
 import './splash.dart';
 import './home.dart';
